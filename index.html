@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Maldonado - Todo Listo</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e94a5a4c94.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Todo Listo</h1>
+        <hr>
+    </header>
+    <section>
+        <h2>Nueva Tarea</h2>
+        <input type="text" id ="nuevaTarea"/>
+        <button id="agregarTarea">Agregar</button>
+    </section>
+    <section>
+        <div class="container" >
+            <div class="box">
+                <ul>
+                    <li>Total:<span id="Total"></span></li>
+                    <li>Realizadas: <span id ="Realizadas"></span></li>
+                </ul>
+            </div>
+            <div class="box">
+                <table>
+                    <thead>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    <th></th>
+                    </thead>
+                    <tbody></tbody>
+                    </table>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
